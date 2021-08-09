@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Ziffity_Form::Customer_form" title="Customer Form" translate="title" module="Ziffity_Form" sortOrder="20" resource="Ziffity_Form::Customer_form"/>
+        <add id="Ziffity_Form::Customer_detail" title="Customer Details" translate="title" module="Ziffity_Form" sortOrder="10" resource="Ziffity_Form::Customer_detail" parent="Ziffity_Form::Customer_form" action="form/banner/index"/>
+    </menu>
+</config>
